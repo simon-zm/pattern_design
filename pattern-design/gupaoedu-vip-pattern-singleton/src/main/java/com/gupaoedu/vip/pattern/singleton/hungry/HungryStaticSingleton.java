@@ -10,9 +10,10 @@ public class HungryStaticSingleton {
     static {
         hungrySingleton = new HungryStaticSingleton();
     }
-    private HungryStaticSingleton(){}
+    private HungryStaticSingleton(){
+       System.out.println("11");
+    }
     public static HungryStaticSingleton getInstance(){
-
         return  hungrySingleton;
     }
 }
