@@ -12,6 +12,7 @@ public class HungryStaticSingleton {
     }
     private HungryStaticSingleton(){}
     public static HungryStaticSingleton getInstance(){
+
         return  hungrySingleton;
     }
 }
