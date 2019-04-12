@@ -20,9 +20,11 @@ public class HungrySingleton {
     //先上后下
     private static final HungrySingleton hungrySingleton = new HungrySingleton();
 
-    private HungrySingleton(){}
+    private HungrySingleton(){
+        System.out.println("ss");
+    }
 
-    public static HungrySingleton getInstance(){
+    public static HungrySingleton getInstance() {
         return  hungrySingleton;
     }
 }
